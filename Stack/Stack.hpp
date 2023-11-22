@@ -20,11 +20,11 @@ private:
 public:
     Stack(int);
 
-    // void push(int);
-    // void pop();
-    // int peek();
-    // bool isFull();
-    // bool isEmpty();
+    void push(int);
+    void pop();
+    int peek();
+    bool isFull();
+    bool isEmpty();
 
     void printStack();
 };
