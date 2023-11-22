@@ -10,23 +10,23 @@
 #include <iostream>
 using namespace std;
 
-class Stack {
+class Stack
+{
 private:
     int top;
     int capacity;
     int *arr;
-    
+
 public:
     Stack(int);
-    
-    void push(int);
-    void pop();
-    int peek();
-    bool isFull();
-    bool isEmpty();
-    
+
+    // void push(int);
+    // void pop();
+    // int peek();
+    // bool isFull();
+    // bool isEmpty();
+
     void printStack();
-    
 };
 
 #endif /* Stack_hpp */
